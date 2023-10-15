@@ -32,11 +32,13 @@ body {
   font-size: 40px;
   text-align: right;
   cursor: pointer;
+  box-shadow: -2px -2px 15px #000 inset, 2px 2px 15px #000 inset;
+  border-radius: 10px;
 }
 
-/* input::placeholder {
-  color: #000;
-} */
+input::placeholder {
+  color: #fff;
+}
 
 button {
   width: 70px;
@@ -46,11 +48,9 @@ button {
   font-size: 22px;
   font-weight: 600;
   border: 0;
-  box-shadow: -5px -5px 15px #000;
+  box-shadow: -5px -5px 10px 0.1px #000;
   border-radius: 10px;
   margin: 10px;
-  outline: 1px solid #313131;
-  outline-offset: 1px;
   cursor: pointer;
 }
 
