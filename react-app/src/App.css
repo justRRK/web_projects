@@ -1,0 +1,126 @@
+.App {
+  background: transparent;
+  border-radius: 15px;
+  border-color: #30363d;
+  border: 2px;
+  border-width: 2px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30vw;
+  height: 70vh;
+  box-shadow: 5px 5px 50px black;
+}
+
+#Heading {
+  color: #c3c4c8;
+  font-family: "Audiowide", sans-serif;
+  font-size: 40px;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  text-align: center;
+  width: 100%;
+  height: 50px;
+  justify-content: center;
+  user-select: none;
+}
+
+.Seperator {
+  color: #c3c4c8;
+  width: 80%;
+  height: 1px;
+  margin-top: 0%;
+}
+
+#InputBoxContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 85%;
+  height: 8%;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  border-radius: 10px;
+  border: #c3c4c8;
+  border-style: solid;
+  border-width: 2px;
+}
+
+#AddButton {
+  height: 100%;
+  width: 10%;
+  margin: 0px;
+  padding: 0px;
+  border-width: 0;
+  background: transparent;
+  color: #c3c4c8;
+}
+
+#AddButton:active {
+  color: greenyellow;
+}
+
+#AddIcon {
+  width: 100%;
+  font-size: 25px;
+}
+
+#AddIcon:hover {
+  font-size: 30px;
+}
+
+#inputBox {
+  color: #c3c4c8;
+  background: transparent;
+  width: 90%;
+  height: 100%;
+  border-width: 0;
+  text-align: left;
+  font-size: medium;
+  padding-left: 10px;
+}
+
+#inputBox::selection {
+  color: white;
+  background: #626262;
+}
+
+#inputBox::placeholder {
+  color: #c3c4c8;
+  text-align: left;
+  padding-left: 10px;
+  font-size: medium;
+}
+
+#inputBox:focus {
+  outline: none;
+}
+
+#TaskListContainer {
+  width: 90%;
+  height: 100%;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 15px;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: 0px 0px 1px #ffffff inset;
+  border-radius: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #3b3b3b;
+  border-radius: 10px;
+}
